@@ -1,0 +1,233 @@
+img{height: 200px;width: auto;}
+.cab ul{list-style-type: none;margin-left: 10em;padding: 0;}
+.cab li{float: left;background-color: black;}
+.cab li a{display: block;color: white;text-align: center;text-decoration: none;padding: 16px 18px;}
+.cab li[class]{float: right;margin-right: 40px}
+.cab{overflow: hidden;background-color: black;}
+/*#menu{float: left;width: 15%;height: auto;border-right-style: ridge;}
+#menu a{margin: 0;display: block;margin-bottom: 45px;}*/
+.encabe h1{text-align: center;font-size: 40px;font-style: italic;}
+.encabe img{display: block;margin: auto;height: 350px;width: 430px;}
+.encabecont{display: flex;flex-flow:row wrap;}
+.encabecontcu{margin-right: 30px;margin-bottom: 30px;}
+.encabecontcu h3{display: inline;}
+.encabecontcu img{float: left;height: 160px;width: 180px;margin-right: 18px;}
+#conte{width: auto;height: auto;}
+body{margin: 0;}
+#contenidoNuevos{width: auto;height: auto;border-bottom-style: ridge;}
+#masVendidos{width: auto;height: auto;border-bottom-style: ridge;}
+.cuadritosNuevos h3 a{text-decoration: none;color: white}
+.cuadritosNuevos{width: 200px;height: 250px;display: inline;float: left;margin-left: 10px;}
+#contenidoNuevos h2{margin-bottom: 0;}
+#masVendidos h2{margin-bottom: 0;}
+.cuadritosNuevos img{height: 135px;width: 150px;display: block;margin: auto;}
+.cuadritosNuevos h3{text-align: center;margin-bottom: 1px;}
+.cuadritosNuevos h4{text-align: center;margin-top: 7px;}
+#pie{clear: both;background-color: black;}
+#contenedor{margin: 0 0;width: auto;}
+
+body{
+  background-color: #BF5C41
+}
+
+h1,h2,h3,h4,h5,h6{
+color: white
+}
+li{
+  color: white
+}
+
+a{
+  color: white
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+}
+.main{
+  width:90%;
+  max-width:1000px;
+  margin:20px auto;
+
+}
+.slides{
+  width:60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.slides img{
+  height:auto;
+  width:1500px;
+}
+.slidesjs-pagination{
+  background:#424242;
+  list-style:none;
+  overflow:hidden;
+}
+.slidesjs-pagination li{
+  float: left;
+}
+.slidesjs-pagination li a{
+  display:block;
+  padding:10px 20px;
+  color:#fff;
+  text-decoration:none;
+}
+.slides .active{
+  background:#000;
+}
+.slidesjs-pagination li a:hover{
+  background:#000;
+}
+.slidesjs-navigation{
+  background:#000;
+  color:#fff;
+  text-decoration:none;
+  display:inline-block;
+  padding:11px 20px;
+  float:right;
+}
+footer{
+    width: 100%;
+    background: #202020;
+    color: white;
+
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.colum1{
+    max-width: 400px;
+}
+
+.colum1 h1{
+    font-size: 22px;
+}
+
+.colum1 p{
+    font-size: 14px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+
+.colum2{
+    max-width: 400px;
+
+}
+
+.colum2 h1{
+    font-size: 22px;
+}
+
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row img{
+    width: 36px;
+    height: 36px;
+}
+
+.row label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7C7C7;
+}
+
+.colum3{
+    max-width: 400px;
+}
+
+.colum3 h1{
+    font-size: 22px;
+}
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+}
+
+.container-footer{
+    width: 100%;
+    background: #101010;
+}
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.copyright{
+    color: #C7C7C7;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.information a{
+    text-decoration: none;
+    color: #C7C7C7;
+}
+
+
+@media screen and (max-width: 1100px){
+
+    .container-body{
+        flex-wrap: wrap;
+    }
+
+    .colum1{
+        max-width: 100%;
+    }
+
+    .colum2,
+    .colum3{
+        margin-top: 40px;
+    }
+}
+.encabecontcu{
+  transition:all 0.5s linear;
+}
+.encabecontcu:hover{
+  transform:scale(1.5);
+}
+.cuadritosNuevos{
+  transition:all 0.5s linear;
+}
+.cuadritosNuevos:hover{
+  transform:scale(1.5);
+}
+.cab a:hover{
+  background:#BF5C41;
+}

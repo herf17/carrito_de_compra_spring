@@ -1,0 +1,52 @@
+body{background-color: #72A0EA}
+img{height: 100px;width: 300px;display: block;margin: auto;}
+h1{color: black;font-family: cursive;text-align: center;clear: both;}
+.cab ul{list-style-type: none;margin-left: 10em;padding: 0;}
+.cab ul li{float: left;background-color: black;}
+.cab li[class]{float: right;margin-right: 40px}
+li a{display: block;color: white;text-align: center;text-decoration: none;padding: 16px 18px;}
+.TituloProducto a{text-decoration: none;color: black;font-family: cursive;font-size: 0.8em}
+.DescripProduct{list-style-type: circle;}
+.cab{overflow: hidden;background-color: black;}
+.content{border-style: solid;display: inline;float: left;margin-left: 5em;margin-bottom: 5em;width: 20em;height: 25em}
+.TituloProducto{text-align: center;}
+body{margin:0;}
+#pie{clear: both;background-color: black;}
+#contenedor{margin: 0 auto;width: auto;}
+
+body{
+  background-color: #BF5C41
+}
+
+h1,h2,h3,h4,h5,h6{
+color: white
+}
+li{
+  color: white
+}
+
+a{
+  color: white
+}
+
+input {margin-bottom: 5px; padding: 2px 3px; width: 209px;}
+td {padding: 4px; border: 1px #CCC solid; width: 100px;}
+
+#cambio{visibility: hidden;}
+
+
+.encabecontcu{
+  transition:all 0.5s linear;
+}
+.encabecontcu:hover{
+  transform:scale(1.5);
+}
+.cuadritosNuevos{
+  transition:all 0.5s linear;
+}
+.cuadritosNuevos:hover{
+  transform:scale(1.5);
+}
+.cab a:hover{
+  background:#BF5C41;
+}
